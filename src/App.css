@@ -1,3 +1,46 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "system-ui", Times, serif;
+}
+
+.topDiv {
+  margin-top: 50px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.selectDiv {
+  margin: 10px 0 10px 0;
+}
+
+.petDetailsDiv {
+
+  margin: 50px 0 50px 0;
+}
+
+.petDetailsHead {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+}
+
+.petDetailsRow {
+  margin-top: 30px
+}
+
+.Card-image {
+  height: 191px;
+}
+
+.Card-col {
+  margin: 40px 0px 40px 0;
+}
+
 .App {
   text-align: center;
 }
@@ -32,6 +75,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

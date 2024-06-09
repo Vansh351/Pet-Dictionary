@@ -1,3 +1,31 @@
+# Created a simple Pet Dictionary Application 
+
+This applcation is created using React and the dependencies are as follows :-
+
+# React
+# Bootstrap
+# React-Bootstrap
+# axios
+
+The data is fetched using axios from api (https://run.mocky.io/v3/32e5b05e-8ba1-4995-8a94-2b4575078f01) created by free mock servers (https://designer.mocky.io/).
+
+
+
+# Flow of Data 
+
+# App.js -> Setup.js -> PetDetails.js -> Card.js
+
+The 'src/components' folder conatins three files Card.js, PetDetails.js, Setup.js.
+
+-> Api fetching is done in App.js file which return Setup.js Component and pass the fetched data by props.
+-> Setup.js contains logic for select option and return PetDetails.js Components
+-> PetDetils.js components return the Card.js components which is rendered by map function.
+-> Card.js component contains the structure of cards that are rendered.
+
+  
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
