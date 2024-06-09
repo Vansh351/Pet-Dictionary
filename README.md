@@ -2,10 +2,10 @@
 
 This applcation is created using React and the dependencies are as follows :-
 
-# React
-# Bootstrap
-# React-Bootstrap
-# axios
+ ### React
+ ### Bootstrap
+ ### React-Bootstrap
+ ### axios
 
 The data is fetched using axios from api (https://run.mocky.io/v3/32e5b05e-8ba1-4995-8a94-2b4575078f01) created by free mock servers (https://designer.mocky.io/).
 
@@ -13,7 +13,7 @@ The data is fetched using axios from api (https://run.mocky.io/v3/32e5b05e-8ba1-
 
 # Flow of Data 
 
-# App.js -> Setup.js -> PetDetails.js -> Card.js
+### App.js -> Setup.js -> PetDetails.js -> Card.js
 
 The 'src/components' folder conatins three files Card.js, PetDetails.js, Setup.js.
 
